@@ -1,0 +1,633 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+::-webkit-input-placeholder { color:#f00; }
+::-moz-placeholder { color:#f00; } /* firefox 19+ */
+:-ms-input-placeholder { color:#f00; } /* ie */
+input:-moz-placeholder { color:#f00; }
+
+h1 {
+  margin: 10px 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #181818;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: none;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.headercontainer {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.headersection {
+  background-image: url('http://images.kaneva.com/filestore8/4449233/5443549/PaperLightPink.jpg');
+}
+.authorname {
+  font-family:'Josefin Sans', sans-serif;
+  color: #181818;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+input, select, textarea{
+    color: #fff;
+}
+
+.imgtileblocks {
+  position: static;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/guitar.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.imgtileblocks.img2 {
+  background-image: url('../images/cook.jpg');
+}
+.imgtileblocks.img3 {
+  background-image: url('../images/fashion.jpg');
+}
+.imgtileblocks.img4 {
+  background-image: url('../images/design.jpg');
+}
+.imgtileblocks.img5 {
+  background-image: url('../images/motorbike.jpg');
+}
+.imgtileblocks.img6 {
+  background-image: url('../images/woodwork.jpg');
+}
+.imgtileblocks.img7 {
+  background-image: url('../images/metal.jpg');
+}
+.imgtileblocks.img8 {
+  background-image: url('../images/photography.jpg');
+}
+.imgtitlecontainerblock {
+  height: auto;
+  background-image: url('../images/guitar.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.imgtextsmall {
+  padding-top: 30%;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.imgtextbig {
+  padding-top: 20px;
+  padding-bottom: 30%;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.blackboardsection {
+  background-image: url('../images/chalkbg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.blackboardcontainer {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.smallh2 {
+  padding-top: 30px;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.bigh2 {
+  padding-top: 36px;
+  padding-bottom: 26px;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+.blackboardparagraph {
+  padding-top: 36px;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.whitecontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.whiteparagraph {
+  padding: 50px 60px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+.whiteh4 {
+  padding-bottom: 30px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.signupinputfield {
+  width: 70%;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 16px;
+  float: left;
+  background-color: #f4d503;
+  border: 0px solid #ebe5da;
+  opacity: 1;
+  font-family:'Josefin Sans', sans-serif;
+  color: #fff !important; 
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.signupbtn {
+  width: 25%;
+  height: 70px;
+  padding-top: 16px;
+  background-color: #3b3b3b;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 22px;
+  line-height: 0px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.signupbtn:hover {
+  background-color: #f4d503;
+  color: #3b3b3b;
+}
+.signupform {
+  display: block;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+.signupformwrapper {
+  display: block;
+  color: #fff; 
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  text-align: center;
+}
+.clientsection {
+  background-image: url('../images/bgYellow.gif');
+}
+.yellowh4 {
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 27px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.yellowh4.formwrap {
+  text-align: center;
+  text-transform: none;
+}
+.yellowcontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.yellowparagraph {
+  padding-top: 16px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.leftcol {
+  padding-right: 35px;
+  padding-left: 14px;
+}
+.rightcol {
+  padding-right: 26px;
+  padding-left: 26px;
+}
+.craftsmaninput {
+  height: 70px;
+  padding-top: 13px;
+  padding-left: 16px;
+  font-family:'Josefin Sans', sans-serif;
+  color: #3b3b3b;
+  border: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+
+.submitcraftsman {
+  width: 100%;
+  height: 70px;
+  padding-top: 18px;
+  background-color: #3b3b3b;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.footersection {
+  background-image: url('../images/chalkbg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.footercontainer {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.quote {
+  padding: 60px 80px;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.emaillink {
+  padding-right: 30px;
+  font-family:'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.formbg {
+  background-color: transparent;
+}
+.errorform {
+  background-color: transparent;
+}
+.errorformtitle {
+  font-family:'Josefin Sans', sans-serif;
+  color: #f94803;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.successemail {
+  padding-top: 20px;
+  background-color: transparent;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  h1 {
+    padding: 40px 22px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .headercontainer {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  .authorname {
+    font-size: 25px;
+  }
+  .imgtextbig {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  .blackboardcontainer {
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+  .blackboardparagraph {
+    padding-right: 42px;
+    padding-left: 42px;
+    font-size: 16px;
+  }
+  .whitecontainer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .whiteparagraph {
+    padding-top: 41px;
+    padding-bottom: 41px;
+  }
+  .whiteh4 {
+    font-size: 21px;
+  }
+  .signupform {
+    width: 80%;
+  }
+  .yellowh4 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .yellowcontainer {
+    padding: 70px 16px;
+  }
+  .yellowparagraph {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .leftcol {
+    padding-right: 10px;
+  }
+  .craftsmaninput {
+    font-size: 18px;
+  }
+  .footercontainer {
+    padding-top: 60px;
+  }
+  .quote {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  .emaillink {
+    line-height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .headercontainer {
+    padding-top: 50px;
+    padding-bottom: 54px;
+  }
+  .imgtextbig {
+    padding-top: 18px;
+    font-size: 32px;
+  }
+  .blackboardcontainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .smallh2 {
+    font-size: 18px;
+  }
+  .blackboardparagraph {
+    padding-right: 54px;
+    padding-left: 54px;
+    font-size: 18px;
+  }
+  .whitecontainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .whiteparagraph {
+    padding-right: 34px;
+    padding-left: 34px;
+    font-size: 24px;
+  }
+  .whiteh4 {
+    padding-right: 41px;
+    padding-bottom: 21px;
+    padding-left: 41px;
+    line-height: 36px;
+  }
+  .signupinputfield {
+    height: 60px;
+    font-size: 20px;
+  }
+  .signupbtn {
+    height: 60px;
+    font-size: 20px;
+  }
+  .signupform {
+    width: 80%;
+  }
+  .yellowh4 {
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .yellowcontainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .yellowparagraph {
+    padding-right: 23px;
+    padding-bottom: 25px;
+    padding-left: 23px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .craftsmaninput {
+    height: 60px;
+    padding-top: 10px;
+  }
+  .submitcraftsman {
+    height: 60px;
+  }
+  .footercontainer {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .quote {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+  .errorformtitle {
+    font-size: 15px;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 27px;
+    line-height: 35px;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .headercontainer {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+  .authorname {
+    font-size: 18px;
+  }
+  .imgtextbig {
+    padding-top: 9px;
+    font-size: 17px;
+  }
+  .smallh2 {
+    padding-top: 20px;
+  }
+  .bigh2 {
+    padding-top: 15px;
+    padding-bottom: 14px;
+    font-size: 70px;
+  }
+  .blackboardparagraph {
+    padding-top: 25px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .whitecontainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .whiteparagraph {
+    padding: 20px 24px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .signupinputfield {
+    width: 100%;
+    font-size: 18px;
+  }
+  .signupbtn {
+    width: 100%;
+    font-size: 18px;
+  }
+  .signupform {
+    width: 90%;
+     color: white;
+  }
+  .yellowh4 {
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 21px;
+    line-height: 36px;
+  }
+  .yellowcontainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .yellowparagraph {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .rightcol {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .craftsmaninput {
+    font-size: 17px;
+  }
+  .submitcraftsman {
+    font-size: 18px;
+  }
+  .footercontainer {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
