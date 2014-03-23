@@ -1,6 +1,3 @@
-function readyFunc(jQuery) {
+$(document).ready(function() {
 	// TODO (Josh)
-}
-
-$(document).ready(readyFunc);
-$(window).load(readyFunc);
+});
