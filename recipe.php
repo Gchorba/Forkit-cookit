@@ -75,7 +75,7 @@ $json_data = json_decode($json_file, true);
 						<button type="button" class="btn btn-default" href="#">Share</button>
 					</div>
 					<br /><br />
-					<button type="button" class="btn btn-danger btn-block" href="forkedupitalian.php">Forked Up?</button>
+					<a href="forkedupitalian.php" class="btn btn-danger btn-block">Forked Up?</a>
 				</div>
 			</div>
 		</div>
