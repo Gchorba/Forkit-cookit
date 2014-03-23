@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body style="background: #F7BED1">
 
     <!--BEGIN #signup-form -->
     <div id="signup-form">
