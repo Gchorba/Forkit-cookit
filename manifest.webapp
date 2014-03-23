@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "FICI",
+  "description": "Your ForkitCookit recipes on a easy to use mobile platform.",
+  "launch_path": "/app-template/index.html",
+  "icons": {
+	"16": "/app-template/app-icons/icon-16.png",
+	"48": "/app-template/app-icons/icon-48.png",
+	"128": "/app-template/app-icons/icon-128.png"
+  },
+  "developer": {
+	"name": "ForkitCookit inc.",
+	"url": "http://www.forkitcookit.com"
+  },
+  "locales": {
+	"es": {
+  	"description": "forkitcookit inc",
+  	"developer": {
+    	"url": "http://forkitcookit.com"
+  	}
+	},
+	"it": {
+  	"description": "forkitcookit inc",
+  	"developer": {
+    	"url": "http://forkitcookit.com"
+  	}
+	}
+  },
+  "default_locale": "en"
+}

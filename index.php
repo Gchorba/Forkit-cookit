@@ -44,13 +44,13 @@
 	</div>
 	<div class="col-md-4"></div>
 	<div class="col-md-4">
-		<button type="button" class="btn btn-primary pull-left btn-lg" href="#">Sign-Up</button>
+		<a class="btn btn-primary pull-left btn-lg" href="signup.php">Sign-Up</a>
 		<button type="button" class="btn btn-primary pull-right btn-lg" href="#">Login</button>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/webflow.js"></script>
 	</div>
 	<div class="col-md-4"></div>
-  </div>
+  </div>	
   
     </div>
   
